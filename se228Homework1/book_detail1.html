@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css" />
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="semantic/dist/semantic.min.js"> </script>
+    <style>
+        .content-img {
+            margin-top: 80px;
+
+            height: 300px;
+            width: 200px;
+            float: left;
+        }
+
+        .content-text {
+            margin-top: 80px;
+            margin-left: 80px;
+            width: 800px;
+            float: left;
+        }
+
+        .price_info {
+            background: rgb(223, 223, 223);
+        }
+
+        #dd-price {
+            color: red;
+            font-size: 200%;
+        }
+
+        div.inline {
+            margin-left: 20px;
+            float: left;
+        }
+
+        .add-to-cart {
+            float: right;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="ui  inverted fitted borderless fixed nine item menu">
+        <a href="#" class="item">
+            <div class="ui image">
+                <img src="images/book.jpg" width="80px" height="80px" alt="" />
+            </div>
+        </a>
+        <a href="#" class="item"></a>
+        <a href="#" class="item">首页</a>
+        <a href="#" class="item">书单</a>
+        <a href="#" class="item">特价</a>
+        <a href="#" class="item">推荐</a>
+        <a href="#" class="item active">详情</a>
+        <a href="#" class="item">
+            <div class="ui image">
+                <i class="search icon"></i>
+            </div>
+        </a>
+        <a href="#" class="item"> 登录/注册 </a>
+    </div>
+
+    <div class="ui basic secondary vertical segment">
+        <div class="ui container">
+            <div class="content-img">
+                <img src="images/bg2.jpeg" alt="" height="100%" width="100%">
+            </div>
+            <div class="content-text">
+
+                <!-- 标题区begin -->
+                <div class="name_info">
+                    <!-- 主标题 -->
+                    <h1 title="不要让未来的你，讨厌现在的自己：百万纪念版(当当独家专享签名版)">
+                        不要让未来的你，讨厌现在的自己：百万纪念版(当当独家专享签名版)
+                    </h1>
+                    <!-- 副标题、促销语 -->
+                    <h2>
+                        <span class="head_title_name"
+                            title="第十届作家富豪榜上榜作品，十万五星好评重点图书！当红作家特立独行的猫呕心力作！你现在努力的样子，将是你今后zui美的风景！天雪文化&nbsp;A股3000点，这些书你还没看？点此查看&nbsp;">
+                            第十届作家富豪榜上榜作品，十万五星好评重点图书！当红作家特立独行的猫呕心力作！你现在努力的样子，将是你今后zui美的风景！天雪文化 </span>
+                    </h2>
+                </div>
+                <div class="ui divider"></div>
+                <!-- 标题区 end-->
+                <!-- 出版物begin -->
+                <!-- 图书信息区 -->
+                <div class="ui vertical text menu">
+                    <p class="item">作者：刘慈欣　著</p>
+                    <p class="itme">出版社：长江文艺出版社</p>
+                    <p class="item">出版时间：2013年08月</p>
+                    <p class="item">定价：￥39.80</p>
+                </div>
+                <!-- 出版物 end-->
+                <!-- 价格区begin -->
+                <div class="price_info">
+                    <div class="price_pc" id="pc-price">
+                        <div class="price_d inline">
+                            <p id="dd-price">
+                                <span class="yen">抢购价: ¥</span>19.90</p>
+                        </div>
+                        <div><br /></div>
+                        <div class="price_m price_m_t inline" id="original-price-text">(5折)定价</div>
+                        <div class="price_m" id="original-price">
+                            <span class="yen">¥</span>39.80
+                        </div>
+                    </div>
+                </div>
+                <!--价格区end-->
+                <div class="ui divider"></div>
+
+                <div class="ui right floated input focus">
+                    <input type="text" placeholder="数量...">
+                </div>
+                <div class="ui vertical animated button add-to-cart" tabindex="0">
+                    <div class="visible content">加入购物车</div>
+                    <div class="hidden content">
+                        <i class="shop icon"></i>
+                    </div>
+                </div>
+                <div class="ui divider"></div>
+                <img src="images/detail.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="ui vertical very padded segment">
+        <div class="ui container">
+            <div class="sub header">
+                Copyright (C), All Rights Reserved
+            </div>
+            <div class="ui divider"></div>
+            <div class="ui five column grid">
+                <div class="ui column">
+                    <a href="#" class="item">关于</a>
+                </div>
+                <div class="ui column">
+                    <a href="#" class="item">联系</a>
+                </div>
+                <div class="ui column">
+                    <a href="#" class="item">服务</a>
+                </div>
+                <div class="ui column">
+                    <a href="#" class="item">帮助</a>
+                </div>
+                <div class="ui column">
+                    <a href="#" class="item">疑问</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

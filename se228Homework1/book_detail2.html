@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous" />
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="semantic/dist/semantic.min.js"> </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+    <style>
+        .move-down {
+            margin-top: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">eBook</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">首页</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">书单</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">特价</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">推荐</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">详情</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container move-down">
+
+        <div class="row">
+
+            <div class="col-lg-3">
+                <h1 class="my-4">店铺</h1>
+                <div class="list-group">
+                    <a href="#" class="list-group-item active">精品</a>
+                    <a href="#" class="list-group-item">推荐</a>
+                    <a href="#" class="list-group-item">特价</a>
+                </div>
+            </div>
+            <!-- /.col-lg-3 -->
+
+            <div class="col-lg-9">
+
+                <div class="card mt-4">
+                    <img class="card-img-top img-fluid" src="images/bg3.jpeg" alt="">
+                    <div class="card-body">
+                        <h3 class="card-title">三体</h3>
+                        <h4>￥24.99</h4>
+                        <p class="card-text">
+                            三体》是刘慈欣创作的系列长篇科幻小说，由《三体》、《三体Ⅱ·黑暗森林》、《三体Ⅲ·死神永生》组成，第一部于2006年5月起在《科幻世界》杂志上连载，第二部于2008年5月首次出版，第三部则于2010年11月出版。
+                            作品讲述了地球人类文明和三体文明的信息交流、生死搏杀及两个文明在宇宙中的兴衰历程。其第一部经过刘宇昆翻译后获得了第73届雨果奖最佳长篇小说奖</p>
+                        <span class="text-warning">&#9733; &#9733; &#9733; &#9733; &#9734;</span>
+                        4.0 stars
+                    </div>
+                </div>
+                <!-- /.card -->
+
+
+                <label for="inputNumber" class="sr-only">数量...</label>
+                <input type="email" id="inputNumber" class="form-control" placeholder="数量...">
+                <button class="btn btn-lg btn-primary btn-block" type="submit">加入购物车</button>
+                <p class="mt-5 mb-3 text-muted">© 2017-2019</p>
+
+
+                <div class="card card-outline-secondary my-4">
+                    <div class="card-header">
+                        产品详情
+                    </div>
+                    <div class="card-body">
+                        <img src="images/detail.jpg" alt="">
+                    </div>
+                </div>
+                <!-- /.card -->
+
+            </div>
+            <!-- /.col-lg-9 -->
+
+        </div>
+
+    </div>
+    <!-- /.container -->
+    <footer class="page-footer font-small bg-dark">
+        <div class="container">
+            <p class="m-0 text-center text-white">Copyright (C), All Rights Reserved</p>
+        </div>
+        <hr />
+        <div class="container text-center text-white">
+            <div class="row">
+                <div class="col-md-3">
+                    <a href="#" class="text-white">关于</a>
+                </div>
+                <div class="col-md-3">
+                    <a href="#" class="text-white">联系</a>
+                </div>
+                <div class="col-md-3">
+                    <a href="#" class="text-white">服务</a>
+                </div>
+                <div class="col-md-3">
+                    <a href="#" class="text-white">帮助</a>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
