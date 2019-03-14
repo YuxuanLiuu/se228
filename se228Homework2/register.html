@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <link rel="stylesheet" type="text/css" href="node_modules/semantic/dist/semantic.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/general.css">
+
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/semantic/dist/semantic.min.js"> </script>
+</head>
+
+<body>
+    <div class="ui">
+        <div class="ui four column centered grid">
+            <div class="column move_down">
+                <h2 class="ui teal image header">
+                    <img src="images/book.jpg" class="image">
+                    <div class="content">
+                        注册 E-book
+                    </div>
+                </h2>
+                <form class="ui form">
+                    <div class="ui stacked segment four wide column centered">
+                        <div class="field">
+                            <label>用户名</label>
+                            <div class="ui left icon input">
+                                <i class="user icon"></i>
+                                <input id="userName" type="text" name="userName" placeholder="用户名">
+                            </div>
+                        </div>
+
+                        <div class="field">
+                            <label>电子邮箱</label>
+                            <div class="ui left icon input">
+                                <i class="envelope icon"></i>
+                                <input type="text" name="email" placeholder="电子邮箱">
+                            </div>
+                        </div>
+                        <div class="field">
+                            <label>密码</label>
+                            <div class="ui left icon input">
+                                <i class="lock icon"></i>
+                                <input type="password" name="password" placeholder="密码">
+                            </div>
+                        </div>
+                        <div class="field">
+                            <label>确认密码</label>
+                            <div class="ui left icon input">
+                                <i class="lock icon"></i>
+                                <input type="password" name="password" placeholder="确认密码">
+                            </div>
+                        </div>
+
+                        <div onclick="alertInfo()" class="ui fluid large teal submit button">Register</div>
+                    </div>
+
+                    <div class="ui error message"></div>
+
+                </form>
+
+                <div class="ui message">
+                    已有账户？ <a href="#">登录</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="js/alertOnRegister.js"></script>
+</html>

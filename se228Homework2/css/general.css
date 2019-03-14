@@ -1,0 +1,11 @@
+.move_down {
+    margin-top: 80px;
+  }
+
+  .nowrap {
+    white-space: nowrap;
+  }
+
+  .wrap {
+    white-space: normal;
+  }
