@@ -4,12 +4,17 @@ classArray.forEach(element =>
     element.style.color = "black");
 
 classArray.forEach(element =>
-    element.addEventListener("click", changeColor));
+    element.addEventListener("mouseenter", changeColorToRed));
 
-function changeColor() {
-    if(this.style.color === "black"){
+classArray.forEach(element =>
+    element.addEventListener("mouseleave", changeColorToBlack));
+
+function changeColorToRed() {
+   
         this.style.color = "red";
-    } else {
+}
+
+function changeColorToBlack() {
+   
         this.style.color = "black";
-    }
 }
